@@ -7,13 +7,11 @@ import ProjectsPage from './Pages/ProjectsPage'
 function App() {
   return (
     <Router>
-      <div className='container'>
         <Header/>
         <Routes>
           <Route path='/' element={<Home/>}/><Route/>
           <Route path='/projects' element={<ProjectsPage/>}></Route>
         </Routes>
-      </div>
     </Router>
   );
 }
