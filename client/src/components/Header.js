@@ -25,7 +25,7 @@ const Header = () => {
       const showMenu = windowWidth < 768;
 
     return(
-        <div className='container'>
+        <div className='header_container position-fixed'>
             <div className='row'>
                 <div className='custom_header d-flex align-items-center col-6'>
                     <a href='https://github.com/mseaman26' className='icon_link'>
@@ -52,8 +52,11 @@ const Header = () => {
                   </Menu>
                    
                 ) : (
-                    <div className='col-6 d-flex align-items-center justify-content-end'>
-                    <Link className='icon_link'>
+                  <div className='col-6 d-flex align-items-center justify-content-end'>
+                    <Link className='icon_link' to='/'>
+                      Home
+                    </Link>
+                    <Link className='icon_link' to='/projects'>
                         Projects
                     </Link>
                     <Link className='icon_link'>
