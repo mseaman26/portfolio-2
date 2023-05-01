@@ -30,7 +30,7 @@
   width: 36px;
   height: 30px;
   right: 36px;
-  top: 20px;
+  top: 30px;
 }
 
 /* Color/shape of burger icon bars */
@@ -104,7 +104,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item:hover {
   color: #ffffff;
 }
-h1{
+h1, h2, p{
   margin-bottom: 50px;
   text-align: center;
 }
@@ -133,7 +133,22 @@ h1{
   max-width: 100%;
   margin: auto;
   padding-left: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  height: 100px;
+}
+.main_header{
+  margin-top: 80px;
+  font-size: 12vw;
+}
+.secondayr_header{
+  margin-top: 35px;
+  font-size: 4vw
+}
+p{
+  font-size: 3vw;
+  padding-top: 30px;
+  padding-left: 9vw;
+  padding-right: 9vw;
 }
 
 
