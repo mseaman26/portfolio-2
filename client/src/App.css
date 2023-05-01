@@ -1,18 +1,16 @@
 
 #root{
-  
   background-color: #282c34;
   color: aliceblue;
   min-height: 100vh;
   font-size: 30px;
 }
 .home_page{
- height: 100vh;
   background-color: aliceblue;
   color: #282c34;
 }
 .custom_header{
-  height: 50px;
+  height:50px;
   padding-top: 20px;
   padding-bottom: 20px;
   
@@ -23,6 +21,9 @@
   text-decoration: none;
   padding-right: 20px;
   top: 5px;
+}
+.icon_link_icon{
+  font-size: 48px;
 }
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -134,7 +135,7 @@ h1, h2, p{
   margin: auto;
   padding-left: 10px;
   padding-top: 15px;
-  height: 100px;
+  height: 80px;
 }
 .main_header{
   margin-top: 80px;
@@ -149,6 +150,12 @@ p{
   padding-top: 30px;
   padding-left: 9vw;
   padding-right: 9vw;
+}
+.custom_footer{
+  position: relative;
+
+  width: 100%;
+  text-align: center;
 }
 
 

@@ -28,10 +28,10 @@ const Header = () => {
         <div className='header_container position-fixed'>
             <div className='row'>
                 <div className='custom_header d-flex align-items-center col-6'>
-                    <a href='https://github.com/mseaman26' className='icon_link'>
+                    <a href='https://github.com/mseaman26' className='icon_link icon_link_icon'>
                         <FontAwesomeIcon icon={faGithub} />
                     </a> 
-                    <a href='https://github.com/mseaman26' className='icon_link'>
+                    <a href='https://github.com/mseaman26' className='icon_link icon_link_icon'>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a> 
                 </div>
