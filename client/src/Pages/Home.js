@@ -10,7 +10,7 @@ const Home = () => {
             <h2>
                 ____
             </h2>
-            <h2 className='secondayr_header'>
+            <h2 className='seconday_header'>
                 Full-Stack Developer
             </h2>
             <h2>

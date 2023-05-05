@@ -112,6 +112,7 @@ h1, h2, p{
 
 .page{
  padding-top: 50px;
+ padding-bottom: 50px;
 }
 .project_div{
   padding-top: 13px;
@@ -141,7 +142,7 @@ h1, h2, p{
   margin-top: 80px;
   font-size: 12vw;
 }
-.secondayr_header{
+.seconday_header{
   margin-top: 35px;
   font-size: 4vw
 }
@@ -153,7 +154,7 @@ p{
 }
 .custom_footer{
   position: relative;
-
+  font-size: 24px;
   width: 100%;
   text-align: center;
 }

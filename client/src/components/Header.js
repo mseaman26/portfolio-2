@@ -36,7 +36,7 @@ const Header = () => {
                     </a> 
                 </div>
                 {showMenu ? (
-                    <Menu className='col-6' right>
+                  <Menu className='col-6' right>
                     <a className="menu-item" href="/">
                       Home
                     </a>

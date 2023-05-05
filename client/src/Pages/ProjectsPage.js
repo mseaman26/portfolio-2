@@ -38,7 +38,7 @@ const ProjectsPage = () => {
     ]
     return (
         <div className='container page'>
-            <h1>Projects</h1>
+            <h1 className='seconday_header'>Projects</h1>
             {projects.map((project, index) => {
                 return(
                     <Project project={project} key={index}></Project>
