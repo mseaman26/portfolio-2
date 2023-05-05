@@ -3,9 +3,11 @@ import React from "react";
 const Project = (props) => {
     return(
         <div className="project_div container justify-content-center">
-            <div className="project_link">
-                <h3>{props.project.name}</h3>
-                <img src={props.project.image} className="project_image"/>
+            <div className="project_link row">
+                <div className="col-lg-6 col-sm-12 project_clickable">
+                    <h3>{props.project.name}</h3>
+                    <img src={props.project.image} alt={props.project.name} className="project_image h-150"/>
+                </div>
             </div>
             
             <p>{props.project.description}</p>

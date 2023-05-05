@@ -119,12 +119,21 @@ h1, h2, p{
   background-color: #373a47;
 }
 .project_image{
-  height: 100px;
   margin: 10px;
 }
 .project_link{
+  text-align: center;
+  margin: auto;
   background-color: #434656;
   padding: 10px;
+}
+.project_clickable{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h3{
+  text-align: center;
 }
 .header_container{
   z-index: 1;
@@ -144,7 +153,7 @@ h1, h2, p{
 }
 .seconday_header{
   margin-top: 35px;
-  font-size: 4vw
+  font-size: 48px
 }
 p{
   font-size: 3vw;
