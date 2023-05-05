@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mseaman26/portfolio-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mseaman26/portfolio-2/issues"
+  },
+  "homepage": "https://github.com/mseaman26/portfolio-2#readme"
+}
