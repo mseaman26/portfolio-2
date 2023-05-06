@@ -12,6 +12,10 @@ import { slide as Menu } from 'react-burger-menu';
 const Header = () => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const[menuOpen, setMenuOpen] = useState(false)
+    const closeMenu = () => {
+      setMenuOpen(false)
+    }
 
     useEffect(() => {
         function handleResize() {
@@ -36,11 +40,11 @@ const Header = () => {
                     </a> 
                 </div>
                 {showMenu ? (
-                  <Menu className='col-6' right>
-                    <a className="menu-item" href="/">
+                  <Menu className='col-6' right isOpen={menuOpen} onStateChange={(state) => setMenuOpen(state.isOpen)}>
+                    <a className="menu-item" href="/" onClick={closeMenu}>
                       Home
                     </a>
-                    <a className="menu-item" href="/#/projects">
+                    <a className="menu-item" href="/#/projects" onClick={closeMenu}>
                       Projects
                     </a>
                     <a className="menu-item" href="/about">
