@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://mseaman26.github.io/portfolio-2",
   "scripts": {
+    "predeploy": "cd client && npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "cd client && npm install && npm run build",
     "start": "cd client && npm start"
-
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mseaman26/portfolio-2/issues"
   },
-  "homepage": "https://github.com/mseaman26/portfolio-2#readme"
+  "homepage": "https://github.com/mseaman26/portfolio-2#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
