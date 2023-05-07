@@ -47,7 +47,7 @@ const Header = () => {
                     <a className="menu-item" href="/#/projects" onClick={closeMenu}>
                       Projects
                     </a>
-                    <a className="menu-item" href="/about">
+                    <a className="menu-item" href="/resume">
                       About
                     </a>
                     <a className="menu-item" href="/contact">
@@ -63,8 +63,8 @@ const Header = () => {
                     <Link className='icon_link' to='/projects'>
                         Projects
                     </Link>
-                    <Link className='icon_link'>
-                        About
+                    <Link className='icon_link' to='/resume'>
+                        Resume
                     </Link>
                     <Link className='icon_link'>
                         Contact

@@ -6,7 +6,7 @@ const Project = (props) => {
             <div className="project_link row">
                 <div className="col-lg-6 col-sm-12 project_clickable">
                     <h3>{props.project.name}</h3>
-                    <img src={props.project.image} alt={props.project.name} className="project_image h-150"/>
+                    <img className="project_image" src={props.project.image} alt={props.project.name}/>
                 </div>
             </div>
             

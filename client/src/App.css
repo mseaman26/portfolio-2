@@ -120,6 +120,7 @@ h1, h2, p{
 }
 .project_image{
   margin: 10px;
+  height: 200px;
 }
 .project_link{
   text-align: center;
@@ -166,6 +167,22 @@ p{
   font-size: 24px;
   width: 100%;
   text-align: center;
+}
+iframe{
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+  display: block;
+  height: 500px !important
+}
+.resume_page{
+  padding-top: 100px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resume_iframe{
+  width: 100% !important
 }
 
 

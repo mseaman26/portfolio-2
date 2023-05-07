@@ -4,6 +4,7 @@ import baseballGrapher from '../images/baseballGrapherScreenShot.png'
 import surfShopGif from '../images/surfShopOverview.gif'
 import wordleGif from '../images/MikesWordle.gif'
 import pokeDexGif from '../images/Pokedex_Tracker.gif'
+import { useEffect } from 'react'
 
 const ProjectsPage = () => {
     const projects = [
@@ -36,6 +37,11 @@ const ProjectsPage = () => {
             description: 'This is an app for keeping track of all of your Pokemon accross all 9 generations.  With a fun GUI, the user logs in, and starts logging wich Pokemon they\'ve caught and earns badges as they catch more and more!'
         }
     ]
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div className='container page'>
             <h1 className='seconday_header'>Projects</h1>
@@ -48,4 +54,4 @@ const ProjectsPage = () => {
     )
 }
 
-export default ProjectsPage
+export default ProjectsPage 
