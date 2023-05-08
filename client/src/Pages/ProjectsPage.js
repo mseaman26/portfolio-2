@@ -13,7 +13,8 @@ const ProjectsPage = () => {
             link: 'https://surfshop.herokuapp.com/',
             gitHub: 'https://github.com/mseaman26/Surf-Shop-E-Commerce',
             image: surfShopGif,
-            description: 'This is an E-commerce app for all things surf! Order transactions are simulated, but could easily be uptated to be real.  It features a database of items that are organized by category, a search bar, a shopping cart, a checkout form, admin functionality and more!'
+            description: 'This is an E-commerce app for all things surf! Order transactions are simulated, but could easily be uptated to be real.  It features a database of items that are organized by category, a search bar, a shopping cart, a checkout form, admin functionality and more!',
+            techs: ['React', 'useContext', 'useEffect', 'MaterialUI', 'GraphQL', 'Appollo Client', 'Mongoose']
         },
         {
             name: 'Baseball Grapher',

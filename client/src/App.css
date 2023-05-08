@@ -184,5 +184,12 @@ iframe{
 .resume_iframe{
   width: 100% !important
 }
+.tech_list{
+  font-size: 18px;
+  padding-left: 20%;
+}
+.tech_header{
+  text-decoration: underline;
+}
 
 
