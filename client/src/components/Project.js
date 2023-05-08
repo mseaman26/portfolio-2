@@ -8,10 +8,10 @@ const Project = (props) => {
                     <h3>{props.project.name}</h3>
                     <img className="project_image" src={props.project.image} alt={props.project.name}/>
                 </div>
-                <div className="col-lg-6 col-sm-12 tech_list">
+                <div className="col-lg-6 col-sm-12">
                     <h3 className="tech_header">Technologies Used</h3>
                     <br/>
-                    <ul>
+                    <ul className="tech_list">
                         {props.project.techs ? 
                         props.project.techs.map((tech, index) => {
                             return(
