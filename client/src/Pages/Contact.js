@@ -82,16 +82,16 @@ const ContactPage = () => {
 
                     <div className="col-md-6">
                         <div className="md-form mb-0">
-                            <input type="text" id="name" name="name" className="form-control" onChange={handleInputChange} value={name}/>
                             <label className="">Your name</label>
+                            <input type="text" id="name" name="name" className="form-control" onChange={handleInputChange} value={name}/>
                         </div>
                     </div>
 
 
                     <div className="col-md-6">
                         <div className="md-form mb-0">
-                            <input type="text" id="email" name="email" className="form-control" onChange={handleInputChange} value={email}/>
                             <label className="">Your email</label>
+                            <input type="text" id="email" name="email" className="form-control" onChange={handleInputChange} value={email}/>
                         </div>
                     </div>
 
@@ -101,8 +101,8 @@ const ContactPage = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="md-form mb-0">
-                            <input type="text" id="subject" name="subject" className="form-control" onChange={handleInputChange} value={subject}/>
                             <label className="">Subject</label>
+                            <input type="text" id="subject" name="subject" className="form-control" onChange={handleInputChange} value={subject}/>  
                         </div>
                     </div>
                 </div>
@@ -112,8 +112,8 @@ const ContactPage = () => {
                     <div className="col-md-12">
 
                         <div className="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea" onChange={handleInputChange} value={message}></textarea>
                             <label>Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea" onChange={handleInputChange} value={message}></textarea>
                         </div>
 
                     </div>

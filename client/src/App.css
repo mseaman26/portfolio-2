@@ -191,5 +191,7 @@ iframe{
 .tech_header{
   text-decoration: underline;
 }
-
+form{
+  margin: 0 20px;
+}
 
