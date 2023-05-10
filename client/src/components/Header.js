@@ -47,10 +47,10 @@ const Header = () => {
                     <a className="menu-item" href="/#/projects" onClick={closeMenu}>
                       Projects
                     </a>
-                    <a className="menu-item" href="/resume">
-                      About
+                    <a className="menu-item" href="/#/resume" onClick={closeMenu}>
+                      Resume
                     </a>
-                    <a className="menu-item" href="/contact">
+                    <a className="menu-item" href="/#/contact" onClick={closeMenu}>
                       Contact
                     </a>
                   </Menu>
@@ -66,7 +66,7 @@ const Header = () => {
                     <Link className='icon_link' to='/resume'>
                         Resume
                     </Link>
-                    <Link className='icon_link'>
+                    <Link className='icon_link' to='/contact'>
                         Contact
                     </Link>
                 </div>
