@@ -29,7 +29,7 @@ const ProjectsPage = () => {
             link: 'https://mseaman26.github.io/Mike-s-Wordle/',
             gitHub: 'https://github.com/mseaman26/Mike-s-Wordle',
             image: wordleGif,
-            description: 'This is a project I made early on as a student at UC Berkeley Coding Bootcamp.  It\'s an old project, but I\'m  still proud of its logic.  It is a remake of the famous NYT Wordle game.  I enjoyed the challenge of coding the logic of the game and I still enjoy updating my work and having my friends and family use the "share" button to show me their results in the form of color-coded tile emojis!',
+            description: 'This is a project I made early on as a student at UC Berkeley Coding Bootcamp.  It\'s an old project, but I\'m  still proud of its logic.  It is a remake of the famous NYT Wordle game.  I enjoyed the challenge of coding the logic of the game and I still enjoy updating the daily word and having my friends and family use the "share" button to show me their results in the form of color-coded tile emojis!',
             techs:['Javascript', 'HTML', 'CSS']
         },
         {
