@@ -199,5 +199,10 @@ form{
 }
 .tech_list li{
   list-style: none;
+  margin: auto;
+}
+.tech_list{
+  padding: 0;
+
 }
 
