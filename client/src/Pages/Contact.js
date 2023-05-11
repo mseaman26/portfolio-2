@@ -61,14 +61,14 @@ const ContactPage = () => {
 
 
     return(
-        <>
+        <div className="contact_page">
   
 <section className="mb-4">
 
 
-    <h2 className="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <h2 className="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
 
-    <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I will get back to you as quickly as I can.</p>
+    <p className="text-center mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I will get back to you as quickly as I can.</p>
 
     <div className="row">
 
@@ -148,7 +148,7 @@ const ContactPage = () => {
     </div>
 
 </section>
-        </>
+        </div>
     )
 }
 

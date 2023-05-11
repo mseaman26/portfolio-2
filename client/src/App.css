@@ -8,6 +8,7 @@
 .home_page{
   background-color: aliceblue;
   color: #282c34;
+  min-height: 90vh;
 }
 .custom_header{
   height:50px;
@@ -115,18 +116,17 @@ h1, h2, p{
  padding-bottom: 50px;
 }
 .project_div{
-  padding-top: 13px;
+  padding: 13px;
   background-color: #373a47;
+  margin: 20px;
 }
 .project_image{
   margin: 10px;
-  height: 200px;
+  width: 90%;
 }
 .project_link{
   text-align: center;
-  margin: auto;
-  background-color: #434656;
-  padding: 10px;
+  margin: 13px;
 }
 .project_clickable{
    display: flex;
@@ -176,22 +176,28 @@ iframe{
   height: 500px !important
 }
 .resume_page{
-  padding-top: 100px; 
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  min-height: 90vh;
 }
 .resume_iframe{
   width: 100% !important
 }
 .tech_list{
   font-size: 18px;
-  padding-left: 20%;
 }
 .tech_header{
   text-decoration: underline;
 }
 form{
   margin: 0 20px;
+}
+.contact_page{
+  padding-top: 100px;
+  min-height: 90vh;
+}
+.tech_list li{
+  list-style: none;
 }
 
