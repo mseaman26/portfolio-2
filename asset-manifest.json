@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f07d2f6.css",
-    "main.js": "/static/js/main.492cc996.js",
+    "main.css": "/static/css/main.a6509909.css",
+    "main.js": "/static/js/main.98403825.js",
     "static/js/988.31f2873d.chunk.js": "/static/js/988.31f2873d.chunk.js",
     "static/media/surfShopOverview.gif": "/static/media/surfShopOverview.39a36445f796afe1fea2.gif",
     "static/media/Pokedex_Tracker.gif": "/static/media/Pokedex_Tracker.ef6b6ef26da71ed32447.gif",
@@ -9,12 +9,12 @@
     "static/media/baseballGrapherScreenShot.png": "/static/media/baseballGrapherScreenShot.2465c2479a21317668c5.png",
     "static/media/Michael_Seaman_Resume.pdf": "/static/media/Michael_Seaman_Resume.b17786d254d58ca7953e.pdf",
     "index.html": "/index.html",
-    "main.3f07d2f6.css.map": "/static/css/main.3f07d2f6.css.map",
-    "main.492cc996.js.map": "/static/js/main.492cc996.js.map",
+    "main.a6509909.css.map": "/static/css/main.a6509909.css.map",
+    "main.98403825.js.map": "/static/js/main.98403825.js.map",
     "988.31f2873d.chunk.js.map": "/static/js/988.31f2873d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f07d2f6.css",
-    "static/js/main.492cc996.js"
+    "static/css/main.a6509909.css",
+    "static/js/main.98403825.js"
   ]
 }
