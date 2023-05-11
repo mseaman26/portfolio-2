@@ -38,7 +38,7 @@ const ProjectsPage = () => {
             gitHub: 'https://github.com/mseaman26/Pokemon-Trading-Center',
             image: pokeDexGif,
             description: 'This is an app for keeping track of all of your Pokemon accross all 9 generations.  With a fun GUI, the user logs in, and starts logging wich Pokemon they\'ve caught and earns badges as they catch more and more!',
-            techs:[ 'React', 'Chart.js', 'GraphQL', 'Appolo Client', 'Cheerio']
+            techs:[ 'React', 'GraphQL', 'Appolo Client', 'Mongoose', 'Cheerio']
         }
     ]
 

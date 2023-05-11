@@ -203,6 +203,10 @@ form{
 }
 .tech_list{
   padding: 0;
-
 }
-
+.contact_header{
+  font-size: 5vw;
+}
+.contact_sub_header{
+  font-size: 4vw;
+}
