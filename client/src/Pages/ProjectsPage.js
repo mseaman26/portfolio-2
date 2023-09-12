@@ -2,12 +2,21 @@ import React from 'react'
 import Project from '../components/Project'
 import baseballGrapher from '../images/baseballGrapherScreenShot.png'
 import surfShopGif from '../images/surfShopOverview.gif'
-import wordleGif from '../images/MikesWordle.gif'
+import nerdleGif from '../images/nerdle_cropped.gif'
 import pokeDexGif from '../images/Pokedex_Tracker.gif'
+import casaSusana from '../images/Casa_Susana_1_V2.gif'
 import { useEffect } from 'react'
 
 const ProjectsPage = () => {
     const projects = [
+        {
+            name: 'Casa Susana',
+            link: 'https://mex-restaurant.vercel.app/#/',
+            gitHub: 'https://github.com/mseaman26/mex-restaurant',
+            image: casaSusana,
+            description: `This app primarily demonstrates my front-end skills.  With React and raw CSS, I created a website for a Mexican restaurant that looks and feels great.  Attention to detail, both with the CSS and with the React logic, was key to making this project look good.  This project is clean, scalable, and fundamentally sound! `,
+            techs: ['React', 'useContext', 'useEffect', 'useState', 'useRef', 'CSS']
+        },
         {
             name: 'Surf Shop',
             link: 'https://surfshop.herokuapp.com/',
@@ -25,12 +34,13 @@ const ProjectsPage = () => {
             techs:['Cheerio', 'React', 'Chart.js', 'GraphQL', 'Appolo Client']
         },
         {
-            name: 'Mike\'s Wordle!',
-            link: 'https://mseaman26.github.io/Mike-s-Wordle/',
-            gitHub: 'https://github.com/mseaman26/Mike-s-Wordle',
-            image: wordleGif,
-            description: 'This is a project I made early on as a student at UC Berkeley Coding Bootcamp.  It\'s an old project, but I\'m  still proud of its logic.  It is a remake of the famous NYT Wordle game.  I enjoyed the challenge of coding the logic of the game and I still enjoy updating the daily word and having my friends and family use the "share" button to show me their results in the form of color-coded tile emojis!',
-            techs:['Javascript', 'HTML', 'CSS']
+            name: 'Mike\'s Nerdle!',
+            link: 'https://mseaman26.github.io/Mike-s-Nerdle',
+            gitHub: 'https://github.com/mseaman26/Mike-s-Nerdle',
+            image: nerdleGif,
+            description: `Recreating the famous Nerdle game was a wonderful challenge.  While the game logic might seem simple at first, this challenge grew as I tried to hone in the details.  The most notable challenge was allowing the user to win with different permutations of the same equation. For example, "6*3-5=13" and “3*6-5=13" could both be winning guesses. The equation automatically updates at midnight daily.  Feel free to play!
+            `,
+            techs:['React','MathJS, CSS']
         },
         {
             name: 'Pokedex Tracker',
