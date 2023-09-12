@@ -188,6 +188,10 @@ iframe{
   flex-direction: column;
   min-height: 90vh;
 }
+.resume_page a{
+  text-decoration: none;
+  text-align: center;
+}
 .resume_iframe{
   width: 100% !important
 }
