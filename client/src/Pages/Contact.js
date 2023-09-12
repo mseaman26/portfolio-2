@@ -56,6 +56,7 @@ const ContactPage = () => {
         setName('');
         setEmail('');
         setMessage('')
+        setSubject('')
         alert(`message sent!`);
     }
 
