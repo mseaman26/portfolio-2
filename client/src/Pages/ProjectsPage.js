@@ -30,7 +30,7 @@ const ProjectsPage = () => {
             link: 'https://baseball-grapher.herokuapp.com/',
             gitHub: 'https://github.com/mseaman26/Baseball-Grapher',
             image: baseballGrapher,
-            description: 'This app uses web-scraping to gather win/loss/day-off data from the current baseball season.  It then displays this data in a fun graph that lets you see the divisional standings over time!  A great way to see a visual representation of the baseball season!',
+            description: 'This app uses web-scraping to gather win/loss/day-off data from the current baseball season.  It then displays this data in a fun graph that lets you see the divisional standings over time!  A great way to see a visual representation of the baseball season! Please keep in mind that this project is deployed to Heroku on "Hobby Tier" and may take a few seconds to load',
             techs:['Cheerio', 'React', 'Chart.js', 'GraphQL', 'Appolo Client']
         },
         {
@@ -47,7 +47,7 @@ const ProjectsPage = () => {
             link: 'https://pokemon-app.herokuapp.com/',
             gitHub: 'https://github.com/mseaman26/Pokemon-Trading-Center',
             image: pokeDexGif,
-            description: 'This is an app for keeping track of all of your Pokemon accross all 9 generations.  With a fun GUI, the user logs in, and starts logging wich Pokemon they\'ve caught and earns badges as they catch more and more!',
+            description: 'This is an app for keeping track of all of your Pokemon accross all 9 generations.  With a fun GUI, the user logs in, and starts logging wich Pokemon they\'ve caught and earns badges as they catch more and more! Please keep in mind that this project is deployed to Heroku on "Hobby Tier" and may take a few seconds to load',
             techs:[ 'React', 'GraphQL', 'Appolo Client', 'Mongoose', 'Cheerio']
         }
     ]
