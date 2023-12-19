@@ -23,7 +23,7 @@ const Home = () => {
                 ____
             </h2>
             <p>
-            React | JavaScript | MERN Stack | GraphQL | ES6 | Express | Node | MongoDB | MySQL | CSS | HTML 5 | REST | GitHub | UX/UI | MVC | Relational Databases | Strong Communication | Problem-Solving | Responsive Web Design | Developer Tools | Insomnia | Creating Server-Side API | Third-Party API | Fetch | AJAX | Wireframe Creation | Git | GitHub | TDD | Jest | and more…
+            React | JavaScript | Python | Django | Typescript | MERN Stack | GraphQL | ES6 | Express | Node | MongoDB | MySQL | CSS | HTML 5 | REST | GitHub | UX/UI | MVC | Relational Databases | Strong Communication | Problem-Solving | Responsive Web Design | Developer Tools | Insomnia | Creating Server-Side API | Third-Party API | Fetch | AJAX | Wireframe Creation | Git | GitHub | TDD | Jest | and more…
             </p>
         </div>
         

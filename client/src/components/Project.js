@@ -1,12 +1,34 @@
-import React from "react";
+
+import React, { useState } from "react";
 
 const Project = (props) => {
+
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+    const handleImageLoad = () => {
+        setImageLoaded(true);
+    };
+
+    const handleImageError = () => {
+        // Handle image load error if needed
+        setImageLoaded(true); // Set to true to hide the loading icon even on error
+      };
+
+
     return(
         <div className="project_div justify-content-center">
             <div className="project_link row">
                 <div className="col-lg-6 col-sm-12 project_clickable">
                     <h3>{props.project.name}</h3>
-                    <a href={props.project.link} target="_blank" rel="noreferrer"><img className="project_image" src={props.project.image} alt={props.project.name}/></a>
+                    <div className="project_image_container">
+                        {!imageLoaded && (
+                            <div className="loading-icon">
+                            {/* Add your loading icon or spinner here */}
+                            Loading...
+                        </div>
+            )}
+                        <a href={props.project.link} target="_blank" rel="noreferrer"><img className="project_image" src={props.project.image} alt={props.project.name} onLoad={handleImageLoad} onError={handleImageError}/></a>
+                    </div>
                 </div>
                 <div className="col-lg-6 col-sm-12 tech_div">
                     <h3 className="tech_header">Technologies Used</h3>

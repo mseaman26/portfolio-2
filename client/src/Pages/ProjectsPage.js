@@ -4,7 +4,7 @@ import baseballGrapher from '../images/baseballGrapherScreenShot.png'
 import surfShopGif from '../images/surfShopOverview.gif'
 import nerdleGif from '../images/nerdle_cropped.gif'
 import pokeDexGif from '../images/Pokedex_Tracker.gif'
-import casaSusana from '../images/Casa_Susana_1_V2.gif'
+import casaSusana from '../images/Casa_Susana_Small.gif'
 import { useEffect } from 'react'
 
 const ProjectsPage = () => {
@@ -22,7 +22,7 @@ const ProjectsPage = () => {
             link: 'https://surfshop.herokuapp.com/',
             gitHub: 'https://github.com/mseaman26/Surf-Shop-E-Commerce',
             image: surfShopGif,
-            description: 'This is an E-commerce app for all things surf! Order transactions are simulated, but could easily be uptated to be real.  It features a database of items that are organized by category, a search bar, a shopping cart, a checkout form, admin functionality and more!',
+            description: 'This is an E-commerce app for all things surf! Order transactions are simulated, but could easily be uptated to be real.  It features a database of items that are organized by category, a search bar, a shopping cart, a checkout form, admin functionality and more! Please keep in mind that this project is deployed to Heroku on "Hobby Tier" and may take a few seconds to load',
             techs: ['React', 'useContext', 'useEffect', 'MaterialUI', 'GraphQL', 'Appollo Client', 'Mongoose']
         },
         {

@@ -120,9 +120,12 @@ h1, h2, p{
   background-color: #373a47;
   margin: 20px;
 }
-.project_image{
+.project_image_container{
   margin: 10px;
   width: 90%;
+}
+.project_image{
+  width: 100%;
 }
 .project_link{
   text-align: center;
