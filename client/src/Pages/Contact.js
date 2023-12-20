@@ -124,7 +124,7 @@ const ContactPage = () => {
             </form>
 
             <div className="text-center text-md-left">
-                <a className="btn btn-primary" onClick={handleFormSubmit}>Send</a>
+                <a className="btn btn-primary" onSubmit={handleFormSubmit}>Send</a>
             </div>
             <div className="status"></div>
         </div>

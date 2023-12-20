@@ -6,6 +6,7 @@ const Project = (props) => {
     const [imageLoaded, setImageLoaded] = useState(false);
 
     const handleImageLoad = () => {
+        console.log('done loading')
         setImageLoaded(true);
     };
 
@@ -22,12 +23,12 @@ const Project = (props) => {
                     <h3>{props.project.name}</h3>
                     <div className="project_image_container">
                         {!imageLoaded && (
-                            <div className="loading-icon">
-                            {/* Add your loading icon or spinner here */}
-                            Loading...
-                        </div>
-            )}
-                        <a href={props.project.link} target="_blank" rel="noreferrer"><img className="project_image" src={props.project.image} alt={props.project.name} onLoad={handleImageLoad} onError={handleImageError}/></a>
+                            <div className="loading_icon">
+                                {/* Add your loading icon or spinner here */}
+                                Loading...
+                            </div>
+                        )}
+                        <a href={props.project.link} target="_blank" rel="noreferrer" onLoad={handleImageLoad}><img className="project_image" src={props.project.image} alt={props.project.name}  onError={handleImageError}/></a>
                     </div>
                 </div>
                 <div className="col-lg-6 col-sm-12 tech_div">
