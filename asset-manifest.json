@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4278f67a.css",
-    "main.js": "/static/js/main.2f2358bf.js",
+    "main.js": "/static/js/main.9f5cbe30.js",
     "static/js/988.31f2873d.chunk.js": "/static/js/988.31f2873d.chunk.js",
     "static/media/surfShopOverview.gif": "/static/media/surfShopOverview.39a36445f796afe1fea2.gif",
     "static/media/Casa_Susana_Small.gif": "/static/media/Casa_Susana_Small.8bd0d07b02274dd17946.gif",
@@ -11,11 +11,11 @@
     "static/media/Mike_Seaman.pdf": "/static/media/Mike_Seaman.bbcca87b851927109ea7.pdf",
     "index.html": "/index.html",
     "main.4278f67a.css.map": "/static/css/main.4278f67a.css.map",
-    "main.2f2358bf.js.map": "/static/js/main.2f2358bf.js.map",
+    "main.9f5cbe30.js.map": "/static/js/main.9f5cbe30.js.map",
     "988.31f2873d.chunk.js.map": "/static/js/988.31f2873d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4278f67a.css",
-    "static/js/main.2f2358bf.js"
+    "static/js/main.9f5cbe30.js"
   ]
 }
