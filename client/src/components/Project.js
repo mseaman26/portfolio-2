@@ -47,7 +47,10 @@ const Project = (props) => {
                 </div>
                 <div className="container project_button_div">
                     <a href={props.project.link} target="_blank" rel="noreferrer"><button className="btn btn-success project_button">Visit live Site</button></a>
-                    <a href={props.project.gitHub} target="_blank" rel="noreferrer"><button className="btn btn-success project_button">Visit Repo</button></a>
+                    {props.project.gitHub &&
+                        <a href={props.project.gitHub} target="_blank" rel="noreferrer"><button className="btn btn-success project_button">Visit Repo</button></a>
+                    }
+                    
                 </div>
             </div>
             

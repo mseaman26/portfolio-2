@@ -5,6 +5,7 @@ import surfShopGif from '../images/surfShopOverview.gif'
 import nerdleGif from '../images/nerdle_cropped.gif'
 import pokeDexGif from '../images/Pokedex_Tracker.gif'
 import casaSusana from '../images/CasaSusana1-ezgif.com-optimize.gif'
+import polukoshko from '../images/Polukoshko_still.png'
 import { useEffect } from 'react'
 
 const ProjectsPage = () => {
@@ -24,6 +25,14 @@ const ProjectsPage = () => {
             image: surfShopGif,
             description: 'This is an E-commerce app for all things surf! Order transactions are simulated, but could easily be uptated to be real.  It features a database of items that are organized by category, a search bar, a shopping cart, a checkout form, admin functionality and more! Please keep in mind that this project is deployed to Heroku on "Hobby Tier" and may take a few seconds to load',
             techs: ['React', 'useContext', 'useEffect', 'MaterialUI', 'GraphQL', 'Appollo Client', 'Mongoose']
+        },
+        {
+            name: 'Dr Polukoshko: Optometrist',
+            link: 'https://drpolukoshko.com',
+            gitHub: '',
+            image: polukoshko,
+            description: 'A professional website built with a friend/collaborator for an optometrist based in Reno.  We used Next.js and focused heavily on server-side rendering and SEO. At this time, the appointment booking features are not live yet, but will be soon.  We will be incorporating a third party service that handles medical appointments.',
+            techs: ['Next.js', 'Javascript', 'CSS', 'Framer Motion', 'Email.js API', 'Google Maps API']
         },
         {
             name: 'Baseball Grapher',
