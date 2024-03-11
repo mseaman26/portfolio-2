@@ -4,7 +4,7 @@ import baseballGrapher from '../images/baseballGrapherScreenShot.png'
 import surfShopGif from '../images/surfShopOverview.gif'
 import nerdleGif from '../images/nerdle_cropped.gif'
 import pokeDexGif from '../images/Pokedex_Tracker.gif'
-import casaSusana from '../images/Casa_Susana_Small.gif'
+import casaSusana from '../images/CasaSusana1-ezgif.com-optimize.gif'
 import { useEffect } from 'react'
 
 const ProjectsPage = () => {
