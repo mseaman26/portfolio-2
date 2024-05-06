@@ -20,7 +20,9 @@ const Project = (props) => {
         <div className="project_div justify-content-center">
             <div className="project_link row">
                 <div className="col-lg-6 col-sm-12 project_clickable">
-                    <h3>{props.project.name}</h3>
+                    <div className="glow">
+                        <h3 >{` ${props.project.name} `}</h3>
+                    </div>
                     <div className="project_image_container">
                         {!imageLoaded && (
                             <div className="loading_icon">
@@ -47,8 +49,14 @@ const Project = (props) => {
                 </div>
                 <div className="container project_button_div">
                     <a href={props.project.link} target="_blank" rel="noreferrer"><button className="btn btn-success project_button">Visit live Site</button></a>
-                    {props.project.gitHub &&
+                    {props.project.gitHub && !props.project.gitHub2 &&
                         <a href={props.project.gitHub} target="_blank" rel="noreferrer"><button className="btn btn-success project_button">Visit Repo</button></a>
+                    }
+                    {props.project.gitHub && props.project.gitHub2 &&
+                        <>
+                        <a href={props.project.gitHub} target="_blank" rel="noreferrer"><button className="btn btn-success project_button">{`Visit Repo (front end)`} </button></a>
+                        <a href={props.project.gitHub2} target="_blank" rel="noreferrer"><button className="btn btn-success project_button">{`Visit Repo (server)`} </button></a>
+                        </>
                     }
                     
                 </div>

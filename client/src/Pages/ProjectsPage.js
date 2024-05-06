@@ -6,10 +6,20 @@ import nerdleGif from '../images/nerdle_cropped.gif'
 import pokeDexGif from '../images/Pokedex_Tracker.gif'
 import casaSusana from '../images/CasaSusana1-ezgif.com-optimize.gif'
 import polukoshko from '../images/Polukoshko_still.png'
+import poker from '../images/poker.png'
 import { useEffect } from 'react'
 
 const ProjectsPage = () => {
     const projects = [
+        {
+            name: `Mike's Friendly Poker`,
+            link: 'https://poker-taupe-one.vercel.app/?callbackUrl=https%3A%2F%2Fpoker-taupe-one.vercel.app%2Fdashboard',
+            gitHub: 'https://github.com/mseaman26/poker',
+            gitHub2: `https://github.com/mseaman26/poker-server`,
+            image: poker,
+            description: `What a fun app to make. This poker app is a solo project that I chose to make because the logic of poker is a great challenge. I used Next.js for the front end, mainly because I wanted to get more familiar with it, but also to use its backend capabilities. Since implementing sockt.io with Next.js is difficult, I deployed a separate express server for the game logic. Please feel free to play a game of poker with people you know! `,
+            techs: ['Next.js', 'socket.io', 'Mongo, Mongoose', 'Node', 'Express.js', 'CSS']
+        },
         {
             name: 'Casa Susana',
             link: 'https://mex-restaurant.vercel.app/#/',

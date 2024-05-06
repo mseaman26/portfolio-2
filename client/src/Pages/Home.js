@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
+import headshot from '../images/headshot.png'
 
 const Home = () => {
 
@@ -13,9 +14,7 @@ const Home = () => {
             <h1 className='main_header'>
                 Michael Seaman
             </h1>
-            <h2>
-                ____
-            </h2>
+            <img src={headshot} className='headshot'/>
             <h2 className='seconday_header'>
                 Full-Stack Developer
             </h2>

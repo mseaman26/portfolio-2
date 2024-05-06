@@ -6,9 +6,16 @@
   font-size: 30px;
 }
 .home_page{
-  background-color: aliceblue;
-  color: #282c34;
+  background-color: #282c34;
+  color: aliceblue;
   min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headshot{
+  width: 300px;
+  height: 300px;
 }
 .custom_header{
   height:50px;
@@ -114,6 +121,17 @@ h1, h2, p{
 .page{
  padding-top: 50px;
  padding-bottom: 50px;
+}
+.glow{
+  font-weight: bold; /* Make the font bold */
+  font-size: 1.2em; /* Increase font size */
+  animation: glow 1.5s infinite alternate;
+  background-color: #ffffff;
+  color: #373a47;
+  border-radius: 10px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  width: fit-content;
 }
 .project_div{
   padding: 13px;
@@ -233,4 +251,12 @@ form{
 }
 .contact_sub_header{
   font-size: 4vw;
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; /* Initial glow effect */
+  }
+  100% {
+    box-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff; /* Stronger glow effect */
+  }
 }
