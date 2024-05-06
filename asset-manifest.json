@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd3e5eb7.css",
-    "main.js": "/static/js/main.c4b01346.js",
+    "main.js": "/static/js/main.516c2ff3.js",
     "static/js/988.6ffc4e9b.chunk.js": "/static/js/988.6ffc4e9b.chunk.js",
     "static/media/surfShopOverview.gif": "/static/media/surfShopOverview.39a36445f796afe1fea2.gif",
     "static/media/headshot.png": "/static/media/headshot.e4439a7b98b5717319a8.png",
@@ -14,11 +14,11 @@
     "static/media/Resume.pdf": "/static/media/Resume.c19e9a9eb4c1728bb7dd.pdf",
     "index.html": "/index.html",
     "main.cd3e5eb7.css.map": "/static/css/main.cd3e5eb7.css.map",
-    "main.c4b01346.js.map": "/static/js/main.c4b01346.js.map",
+    "main.516c2ff3.js.map": "/static/js/main.516c2ff3.js.map",
     "988.6ffc4e9b.chunk.js.map": "/static/js/988.6ffc4e9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd3e5eb7.css",
-    "static/js/main.c4b01346.js"
+    "static/js/main.516c2ff3.js"
   ]
 }
